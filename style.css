@@ -141,6 +141,7 @@ ul {
     font-weight: 600;
     text-align: center;
     font-family: 'League Spartan', sans-serif;
+    color: #fff;
     padding: 10% 35% 3% 35%;
 }
 
@@ -155,7 +156,7 @@ ul {
     background-color: #4CAF50;
     border: none;
     border-radius: 5%;
-    color: white;
+    color: #fff;
     padding: 15px 32px;
     font-weight: bold;
     text-align: center;
@@ -347,18 +348,18 @@ h3 {
 }
 
 /*==========Slider==========*/
-.swiper{
+.swiper {
     width: 100%;
-  }
-  
-  .swiper-wrapper{
+}
+
+.swiper-wrapper {
     width: 100%;
     height: 38em;
     display: flex;
     align-items: center;
-  }
-  
-  .card{
+}
+
+.card {
     width: 20em;
     height: 90%;
     background-color: #fff;
@@ -367,51 +368,51 @@ h3 {
     align-items: center;
     flex-direction: column;
     margin: 0 2em;
-  }
-  
-  .swiper-slide:not(.swiper-slide-active){
+}
+
+.swiper-slide:not(.swiper-slide-active) {
     filter: opacity(95%);
-  }
-  
-  .card__image{
+}
+
+.card__image {
     width: 100%;
-  }
-  
-  .card__image img{
+}
+
+.card__image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  
-  .card__content{
+}
+
+.card__content {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 2em 1em;
-  }
-  
-  .card__title{
+}
+
+.card__title {
     font-size: 1rem;
     font-weight: bold;
     position: relative;
     color: #96BB7C;
-  }
-  
-  .card__name{
+}
+
+.card__name {
     color: #000;
     font-weight: bold;
     padding: 0.5rem 0 0.5rem 0;
 
-  }
-  
-  .card__text{
+}
+
+.card__text {
     color: #000;
     text-align: center;
     font-size: 1rem;
     margin: 1em;
-  }
-  
-  .card__btn{
+}
+
+.card__btn {
     background-color: #fff;
     border: none;
     border-radius: 25px;
@@ -427,7 +428,7 @@ h3 {
     font-size: 12px;
     margin: 0 2rem 2rem 2rem;
     cursor: pointer;
-  }
+}
 
 /*==========Testimonials==========*/
 
@@ -633,14 +634,14 @@ h3 {
         align-items: flex-start;
     }
 
-   .header-menu {
+    .header-menu {
         min-height: 70px;
         display: flex;
         justify-content: space-between;
-        align-items:end;
+        align-items: end;
         padding: 0 24px;
     }
-   
+
     .nav-menu {
         position: fixed;
         right: -100%;
@@ -670,7 +671,7 @@ h3 {
         transition: all 0.3s ease-in-out;
         z-index: 2;
     }
-    
+
     .bar {
         display: block;
         width: 25px;
@@ -680,7 +681,7 @@ h3 {
         transition: all 0.3s ease-in-out;
         background-color: #fff;
     }
-    
+
     .hamburger {
         display: block;
         cursor: pointer;
@@ -806,7 +807,7 @@ h3 {
         padding-bottom: 1.5rem;
     }
 
-    .newsletter-email, 
+    .newsletter-email,
     .newsletter-subscribe {
         font-size: 10px;
     }
@@ -815,9 +816,4 @@ h3 {
 
 /*==========for Small devices==========*/
 
-@media only screen and (max-width: 600px) {
-
-    
-
-}
-
+@media only screen and (max-width: 600px) {}
